@@ -1,0 +1,10 @@
+We have a dataset of sales of different TV sets across different locations.
+Records look like:
+Samsung|Optima|14|Madhya Pradesh|132401|14200
+The fields are arranged like:
+Company Name|Product Name|Size in inches|State|Pin Code|Price
+
+7. Write a Map Reduce program to view the total sales for each product for every Company corresponding to each size.
+Make sure that all records for a single company goes to a single reducer and inside every reducer, keys must be sorted
+in descending order of the size.
+You may write a custom WritableComparable for this purpose.

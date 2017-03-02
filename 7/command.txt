@@ -1,0 +1,8 @@
+
+hadoop jar /home/acadgild/Desktop/DesendingOrderWithWritableComparable.jar /user/acadgild/television.txt /user/acadgild/out_desc_comp
+
+
+
+
+
+
