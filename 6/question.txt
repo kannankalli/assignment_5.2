@@ -1,0 +1,9 @@
+We have a dataset of sales of different TV sets across different locations.
+Records look like:
+Samsung|Optima|14|Madhya Pradesh|132401|14200
+The fields are arranged like:
+Company Name|Product Name|Size in inches|State|Pin Code|Price
+6. Modify Task 3 (refer session 4, assignment 2) to take advantage of Combiner.
+
+Note: Task 3 (refer session 4, assignment 2)
+3. Write a Map Reduce program to calculate the total units sold in each state for Onida company.
